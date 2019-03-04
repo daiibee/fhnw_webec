@@ -66,16 +66,24 @@
             text-align: left;
             border-bottom: 1px solid black;
             margin-bottom: 2rem;
+            max-width: 600px;
         }
         table th {
             background-color: #1a5276 ;
             color: white;
-            width: 40%;
             text-align: left;
             padding-left: 0.5rem;
         }
+        /*table th.datum {
+            width: 25%;
+        }
+        table th.zeit {
+            width: 25%
+        }
+        table th.thema {
+            width: 50%;
+        }*/
         table td {
-            width: 40%;
             padding-top: 1rem;
             padding-left: 0.5rem;
         }
